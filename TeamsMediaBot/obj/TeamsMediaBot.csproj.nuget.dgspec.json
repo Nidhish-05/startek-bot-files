@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TeamsMediaBot\\TeamsMediaBot\\TeamsMediaBot.csproj": {}
+  },
+  "projects": {
+    "C:\\TeamsMediaBot\\TeamsMediaBot\\TeamsMediaBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TeamsMediaBot\\TeamsMediaBot\\TeamsMediaBot.csproj",
+        "projectName": "TeamsMediaBot",
+        "projectPath": "C:\\TeamsMediaBot\\TeamsMediaBot\\TeamsMediaBot.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\TeamsMediaBot\\TeamsMediaBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Graph.Communications.Calls": {
+              "target": "Package",
+              "version": "[1.2.0.4851, )"
+            },
+            "Microsoft.Graph.Communications.Calls.Media": {
+              "target": "Package",
+              "version": "[1.2.0.4851, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.61.3, )"
+            },
+            "Microsoft.Skype.Bots.Media": {
+              "target": "Package",
+              "version": "[1.33.0.258-preview, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
